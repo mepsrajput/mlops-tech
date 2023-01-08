@@ -1,0 +1,185 @@
+/* ****************************
+  Style the Navbar
+*******************************/
+
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  padding: 5px 10px;
+}
+
+.navbar-brand img {
+  max-width: 100px;
+  max-height: 30px;
+}
+
+.navbar a {
+  color: #333;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+}
+
+.navbar a:hover {
+  color: #00b0ff;
+}
+
+.navbar .active a {
+  color: #00b0ff;
+}
+
+/* Style the navbar toggle button */
+.navbar .navbar-toggler {
+  border-color: #00b0ff;
+}
+
+/* Style the navbar toggle button icon */
+.navbar .navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 176, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+/******************************
+ Change the default styles
+*******************************/
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  color: #333;
+  margin: 50px auto;
+}
+
+p {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+ul {
+  max-width: 60%;
+  margin: 0 auto;
+
+}
+
+li {
+  color: #333;
+  font-size: 16px;
+}
+
+
+/******************************
+  Styles for page sections
+*******************************/
+
+#resources,
+#principles,
+#about,
+#topbooks {
+  min-height: 100vh;
+}
+
+
+/******************************
+  Styles for MLOps Books section
+*******************************/
+
+.img-container {
+  margin: 10px 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  min-width: 150px;
+  max-width: 250px;
+  height: 250px;
+  margin: 10px auto ;
+  padding: 5px;
+}
+
+.img-container:hover {
+  border-color: #00b0ff;
+  transform: scale(1.1);
+  transition: all 0.2s ease;
+}
+
+
+/******************************
+  Footer styles
+*******************************/
+
+footer {
+  background-color: #ADA2FF;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+footer p {
+  color: #777 !important;
+  text-align: center;
+  font-size: 14px;
+  margin: auto;
+}
+
+
+/******************************
+  Timeline styles
+*******************************/
+
+.timeline {
+  border-left: 1px solid #BFEAF5;
+  position: relative;
+  list-style: none;
+}
+
+.timeline .timeline-item {
+  position: relative;
+}
+
+.timeline .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .timeline-item:after {
+  background-color: #82AAE3;
+  left: -38px;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  content: "";
+}
+
+
+/******************************
+  Back-to-top styles
+*******************************/
+
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  outline: none;
+  z-index: 9999;
+}
+
+#back-to-top:hover {
+  background-color: #333;
+  color: #fff;
+}

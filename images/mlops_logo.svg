@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="127.88377mm"
+   height="69.43058mm"
+   viewBox="0 0 127.88377 69.43058"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="mlops_logo.svg"
+   inkscape:export-filename="mlops_logo1.svg"
+   inkscape:export-xdpi="100"
+   inkscape:export-ydpi="100"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.71624579"
+     inkscape:cx="127.74944"
+     inkscape:cy="556.37325"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2151" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2887">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.3882353;"
+         offset="0"
+         id="stop2883" />
+      <stop
+         style="stop-color:#ada2ff;stop-opacity:1;"
+         offset="1"
+         id="stop2885" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2718">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="0"
+         id="stop2716" />
+      <stop
+         style="stop-color:#ada2ff;stop-opacity:1;"
+         offset="1"
+         id="stop2714" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2718"
+       id="linearGradient2720"
+       x1="100.06691"
+       y1="112.76766"
+       x2="200.89674"
+       y2="112.76766"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.69748175,0,0,0.90056381,33.699563,10.264734)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2887"
+       id="linearGradient2726"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.69748175,0,0,0.90056381,-22.906478,10.264743)"
+       x1="100.06691"
+       y1="112.76766"
+       x2="200.89674"
+       y2="112.76766" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-46.413015,-77.103918)">
+    <g
+       id="g2155">
+      <ellipse
+         style="mix-blend-mode:soft-light;fill:none;fill-opacity:1;stroke:url(#linearGradient2720);stroke-width:7.92544;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+         id="ellipse2149"
+         cx="138.65799"
+         cy="111.81921"
+         rx="31.676079"
+         ry="30.752565" />
+      <ellipse
+         style="mix-blend-mode:soft-light;fill:none;fill-opacity:1;stroke:url(#linearGradient2726);stroke-width:7.92544;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+         id="ellipse2724"
+         cx="82.051811"
+         cy="111.81921"
+         rx="31.676079"
+         ry="30.752565" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.9306px;font-family:Tahoma;-inkscape-font-specification:'Tahoma, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#c0deff;fill-opacity:1;stroke:none;stroke-width:54.848;stroke-dasharray:none;stroke-opacity:1"
+       x="61.840935"
+       y="126.46428"
+       id="text2421"
+       transform="scale(1.0313265,0.96962505)"><tspan
+         sodipodi:role="line"
+         id="tspan2419"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.9306px;font-family:Tahoma;-inkscape-font-specification:'Tahoma, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#c0deff;fill-opacity:1;stroke:none;stroke-width:54.848;stroke-dasharray:none"
+         x="61.840935"
+         y="126.46428">ML</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.9306px;font-family:Tahoma;-inkscape-font-specification:'Tahoma, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#c0deff;fill-opacity:1;stroke:none;stroke-width:54.3479;stroke-dasharray:none;stroke-opacity:1"
+       x="115.47001"
+       y="122.91837"
+       id="text2629"
+       transform="scale(1.0313265,0.96962505)"><tspan
+         sodipodi:role="line"
+         id="tspan2627"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.9306px;font-family:Tahoma;-inkscape-font-specification:'Tahoma, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#c0deff;fill-opacity:1;stroke:none;stroke-width:54.3479"
+         x="115.47001"
+         y="122.91837">ops</tspan></text>
+  </g>
+</svg>

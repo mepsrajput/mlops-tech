@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MLOps</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/13b54dd5d2.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light sticky-top">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu"
+            aria-expanded="false" aria-table="Toggle navingation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+            <img src="images/mlops_logo.svg" alt="MLOps Logo">
+        </a>
+        <div class="collapse navbar-collapse" id="toggleMobileMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#principles">Principles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#resources">Resources</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="auto_libs.html">Auto Libs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/groups/9276017" target="_blank"><i
+                            class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container max-height-100 d-flex justify-content-center align-items-center text-center" id="about">
+        <div class="row">
+            <h1>MLOps - Machine Learning Operations</h1>
+            <p>MLOps is a set of practices designed to effectively develop and deploy machine learning models in
+                production environments.</p>
+        </div>
+    </div>
+
+    <div class="container max-height-100" id="principles">
+        <h2 class="text-center">MLOps Principles</h2>
+        <div class="row  d-flex  justify-content-center align-items-center">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Collaborative Development</li>
+                <li class="list-group-item">Reproducibility</li>
+                <li class="list-group-item">Deployment</li>
+                <li class="list-group-item">Automation</li>
+                <li class="list-group-item">Continuous Monitoring</li>
+                <li class="list-group-item">Continuous Training</li>
+                <li class="list-group-item">Regular Storage of Metadata and Logging</li>
+            </ul>
+        </div>
+    </div>
+
+    <h2 class="text-center">MLOps Learning Roadmap</h2>
+    <section class="container-fluid roadmap">
+        <ul class="timeline">
+            <li class="timeline-item mb-5">
+                <h5 class="fw-bold">Set the platform</h5>
+                <p class="mb-2 fw-bold">Mathematics</p>
+                <p>To be effective in MLOps (Machine Learning Operations), it is helpful to have a strong foundation in
+                    mathematics,
+                    specifically in linear algebra and calculus.</p>
+                <p><strong>Linear algebra</strong> is a branch of mathematics that deals with vector spaces and linear
+                    transformations. It
+                    is a fundamental mathematical tool used in machine learning, particularly in the development of
+                    algorithms for training
+                    and using neural networks.</p>
+                <p><strong>Calculus</strong> is a branch of mathematics that deals with the study of change and motion.
+                    It is used to analyze and optimize the performance
+                    of machine learning models, particularly in the development of algorithms for training and using
+                    neural networks.</p>
+                <p>Other areas of mathematics that may be useful for MLOps include <strong>probability theory</strong>,
+                    <strong>statistics</strong>,
+                    and <strong>optimization</strong>.
+                <p>In addition to learning these mathematical concepts, it is also important to have strong
+                    problem-solving and analytical skills
+                    and be able to apply mathematical concepts to real-world situations.</p>
+
+                <p class="mb-2 fw-bold">SQL</p>
+                <p><strong>SQL commands</strong>: These include SELECT, INSERT, UPDATE, DELETE, and CREATE TABLE.</p>
+                <p><strong>Data manipulation</strong>: You should learn how to manipulate data in a database using
+                    commands such as JOIN, UNION, and GROUP BY.</p>
+                <p><strong>Stored procedures</strong>: Stored procedures are pre-written SQL scripts that can be used to
+                    automate tasks or perform complex operations.
+                    You should learn how to create and use stored procedures.</p>
+                <p><strong>Data modeling</strong>: You should learn how to design and implement a database schema that
+                    is optimized for machine learning tasks.</p>
+                <p><strong>Data transformation</strong>: You should learn how to transform raw data into a form that is
+                    suitable for use in
+                    machine learning algorithms.</p>
+                <p><strong>Performance optimization</strong>: You should learn how to optimize the performance of your
+                    SQL queries and stored
+                    procedures to ensure that they run efficiently.</p>
+                <p><strong>Data security</strong>: You should learn how to secure your database and data to protect
+                    against unauthorized access and data breaches.</p>
+                </p>
+                <p class="mb-2 fw-bold">Python</p>
+            </li>
+
+            <li class="timeline-item mb-5">
+                <h5 class="fw-bold">ML</h5>
+                <p class="text-muted mb-2 fw-bold">Supervised Learning</p>
+                <p><strong>Basic concepts</strong>: In supervised learning, you have a dataset with labeled examples
+                    (inputs and outputs). Your goal is to build a model that
+                    can predict the output given new inputs. You should understand the difference between classification
+                    and regression tasks and how to evaluate
+                    the performance of your model using metrics such as accuracy, precision, and recall.</p>
+                <p><strong>Algorithms</strong>: There are many algorithms that can be used for supervised learning,
+                    including linear regression, logistic regression, support
+                    vector machines, and decision trees. You should learn about the strengths and weaknesses of these
+                    algorithms and when to use them.</p>
+                <p><strong>Feature engineering</strong>: The quality of your features (inputs) plays a significant role
+                    in the performance of your model. You should learn how
+                    to select and transform features to improve the predictive power of your model.
+                <p><strong>Model selection</strong>: Choosing the right model for your problem is crucial to the success
+                    of your project. You should learn how to evaluate and
+                    compare different models using techniques such as cross-validation and performance metrics.
+                <p><strong>Hyperparameter tuning</strong>: Many machine learning algorithms have hyperparameters that
+                    need to be tuned to achieve optimal performance.
+                    You should learn how to use techniques such as grid search and random search to tune hyperparameters
+                    and improve the performance of your model.
+                <p><strong>Overfitting and regularization</strong>: Overfitting occurs when a model is too complex and
+                    starts to memorize the training data rather
+                    than generalizing to new inputs. You should learn how to use techniques such as regularization and
+                    cross-validation to prevent overfitting and
+                    improve the generalization of your model.</p>
+                <p class="text-muted mb-2 fw-bold">Unsupervised Learning</p>
+                <p>In unsupervised learning, the goal is to discover patterns or relationships in a dataset without the
+                    guidance of labeled responses or
+                    outcomes. Unsupervised learning algorithms are used to find patterns and structure in data, and can
+                    be used for a variety of tasks
+                    such as clustering, anomaly detection, and dimensionality reduction.</p>
+                <p>Some common techniques used in unsupervised learning include:</p>
+                <p><strong>Clustering</strong>: Grouping data points into distinct clusters based on their similarity or
+                    distance to one another.</p>
+                <p><strong>Anomaly detection</strong>: Identifying data points that are unusual or different from the
+                    rest of the data.</p>
+                <p><strong>Dimensionality reduction</strong>: Reducing the number of features or dimensions in a dataset
+                    while maintaining as much information as
+                    possible.</p>
+                <p><strong>Association rule learning</strong>: Identifying relationships between variables in a dataset,
+                    such as identifying items that are
+                    frequently purchased together in a store.</p>
+                <p class="text-muted mb-2 fw-bold">Neural Networks and Deep Learning</p>
+                <p>To learn about deep learning and neural networks, here are some key topics you may want to focus on:
+                </p>
+                <p><strong>Artificial neural networks</strong>: Understand the structure and function of neural
+                    networks, including the different types of layers
+                    and how they are connected.</p>
+                <p><strong>Activation functions</strong>: Learn about the different types of activation functions used
+                    in neural networks, such as sigmoid, tanh,
+                    and ReLU, and how they influence the output of a neural network.</p>
+                <p><strong>Backpropagation</strong>: Learn about the process of training a neural network using
+                    backpropagation, including how to calculate gradients
+                    and update the weights and biases of a network.</p>
+                <p><strong>Convolutional neural networks (CNNs)</strong>: Learn about CNNs, which are commonly used for
+                    tasks such as image classification and
+                    object detection.</p>
+                <p><strong>Recurrent neural networks (RNNs)</strong>: Learn about RNNs, which are well-suited for tasks
+                    involving sequential data such as natural
+                    language processing and time series analysis.</p>
+                <p><strong>Transfer learning</strong>: Learn how to use pre-trained neural networks and fine-tune them
+                    for a specific task.</p>
+                <p><strong>Hyperparameter tuning</strong>: Understand the importance of selecting appropriate
+                    hyperparameters such as learning rate and batch size,
+                    and learn how to tune these hyperparameters to improve the performance of a neural network.</p>
+                <p class="text-muted mb-2 fw-bold">Python Libraries for ML</p>
+                <p>
+                <p><strong>Pandas</strong> - Data Analysis & Manipulation</p>
+                <p><strong>NumPy</strong> - Array Processing</p>
+                <p><strong>Matplotlib</strong> - Popular 2D Data visuapzation Tool</p>
+                <p><strong>SciPy</strong> - Scientific computation</p>
+                <p><strong>Scikit-Learn</strong> - Machine Learning</p>
+                <p><strong>NLTK</strong> - Text processing</p>
+                <p><strong>TensorFlow, PyTorch & Keras</strong> - Deep Learning</p>
+                </p>
+            </li>
+
+            <li class="timeline-item mb-5">
+                <h5 class="fw-bold">Databases</h5>
+                <p>It is important to have a strong understanding of databases and how to use them effectively for
+                    storing and managing data for machine learning
+                    applications. Here are some key topics you may want to focus on:</p>
+                <p><strong>Relational databases</strong>: Understand the concepts and principles of relational
+                    databases, including tables, columns, rows, keys, and constraints.
+                    Learn how to design and create a database schema, and how to use Structured Query Language (SQL) to
+                    query and manipulate data.</p>
+                <p><strong>NoSQL databases</strong>: Learn about the different types of NoSQL databases, such as
+                    document, key-value, and graph databases, and how they differ
+                    from relational databases. Understand the trade-offs and considerations involved in choosing between
+                    a NoSQL and a relational database.</p>
+                <p><strong>Data modeling</strong>: Learn how to design and model data for efficient storage and
+                    retrieval, including concepts such as normalization, denormalization,
+                    and indexing.</p>
+                <p><strong>Data partitioning and sharding</strong>: Learn how to scale databases by partitioning data
+                    across multiple servers, also known as sharding. Understand the
+                    different strategies for data partitioning and the trade-offs involved.</p>
+                <p><strong>Data replication and backup</strong>: Learn about strategies for protecting data against loss
+                    or corruption, including data replication and backup.
+                    Understandthe different approaches to data replication and the benefits and drawbacks of each.</p>
+                </p>
+            </li>
+
+            <li class="timeline-item mb-5">
+                <h5 class="fw-bold">Containerisation</h5>
+                <p>In the field of MLOps (machine learning operations), containerization is a useful technique for
+                    packaging and deploying machine learning applications in a
+                    consistent and reproducible way. Here are some key topics you may want to focus on when learning
+                    about containerization</p>
+                <p><strong>Containers</strong>: Understand the concepts and principles of containerization, including
+                    how containers
+                    differ from virtual machines and how they can be used to package and deploy applications.</p>
+                <p><strong>Container orchestration</strong>: Learn about tools and techniques for managing and scaling
+                    containerized applications, such as Kubernetes and Docker Swarm. Understand
+                    the benefits and drawbacks of different orchestration tools and how to choose the right one for your
+                    needs.</p>
+                <p><strong>Docker</strong>: Learn about Docker, a popular open-source containerization platform that
+                    allows you to build, deploy, and run
+                    applications in containers. Understand how to use Docker to package and deploy applications, and how
+                    to use Dockerfiles to
+                    define the dependencies and configurations of your applications.</p>
+                <p><strong>Container security</strong>: Understand the security implications of containerization,
+                    including how to secure the host system and
+                    the containers running on it. Learn about techniques such as image scanning and runtime security to
+                    protect against vulnerabilities and attacks.</p>
+            </li>
+
+            <li class="timeline-item mb-5">
+                <h5 class="fw-bold">Experiment Tracking, Data Versioning, Metadata Mangagement</h5>
+                <p class="text-muted mb-2 fw-bold">mlflow</p>
+                <p>MLflow is an open-source platform for managing the end-to-end machine learning lifecycle. It provides
+                    tools and libraries for tracking, organizing, and deploying machine learning models, as well as for
+                    managing experiments and reproducing results.
+
+                    Some key features of MLflow include:
+
+                    Tracking: MLflow provides APIs and command-line tools for logging and tracking the results of
+                    machine learning experiments, including metrics, parameters, artifacts, and source code.
+
+                    Model registry: MLflow includes a model registry that allows you to store, version, and deploy
+                    machine learning models.
+
+                    Model serving: MLflow provides tools for serving models in production, including a REST API for
+                    serving models and a web UI for managing deployments.
+
+                    Packaging: MLflow includes a packaging API that allows you to package machine learning code and
+                    dependencies into reproducible runs, making it easier to share and deploy models.
+                </p>
+                <p class="text-muted mb-2 fw-bold">kubeflow</p>
+                <p>Kubeflow is an open-source platform for running and deploying machine learning workflows on
+                    Kubernetes. It provides a set of tools and libraries for building, training, and deploying machine
+                    learning models, as well as for managing experiments and reproducing results.
+
+                    Some key features of Kubeflow include:
+
+                    Jupyter notebooks: Kubeflow includes a JupyterHub component that allows you to run and share Jupyter
+                    notebooks on a Kubernetes cluster.
+
+                    Training: Kubeflow provides tools for training machine learning models, including support for
+                    distributed training using popular frameworks such as TensorFlow and PyTorch.
+
+                    Deployment: Kubeflow includes tools for deploying trained models, including a web UI for managing
+                    deployments and a REST API for serving models.
+
+                    Experiment tracking: Kubeflow includes tools for tracking and reproducing machine learning
+                    experiments, including APIs for logging experiment results and a web UI for visualizing and
+                    comparing results.
+                </p>
+                <p class="text-muted mb-2 fw-bold">metaflow</p>
+                <p>Metaflow is an open-source platform for managing the end-to-end machine learning lifecycle. It
+                    provides tools and libraries for organizing, executing, and deploying machine learning workflows, as
+                    well as for managing experiments and reproducing results.
+
+                    Some key features of Metaflow include:
+
+                    Workflow definition: Metaflow provides a Python library for defining machine learning workflows
+                    using a simple, declarative syntax.
+
+                    Execution: Metaflow includes tools for executing machine learning workflows, including support for
+                    distributed and parallel execution.
+
+                    Tracking: Metaflow provides APIs and a web UI for tracking the results of machine learning
+                    experiments, including metrics, parameters, and artifacts.
+
+                    Deployment: Metaflow includes tools for deploying trained models, including support for serving
+                    models using a REST API.
+                </p>
+                <p class="text-muted mb-2 fw-bold">DVC</p>
+                <p>DVC (Data Version Control) is an open-source version control system for machine learning projects. It
+                    is designed to help you manage and track data, code, and models as you develop and deploy machine
+                    learning applications.
+
+                    Some key features of DVC include:
+
+                    Data version control: DVC allows you to track and version data files, including large datasets, as
+                    you develop and test machine learning models.
+
+                    Model version control: DVC provides support for versioning and tracking machine learning models,
+                    including model files and parameters.
+
+                    Dependency management: DVC helps you manage the dependencies of your machine learning projects,
+                    including data and model files, code, and libraries.
+
+                    Reproducibility: DVC makes it easier to reproduce machine learning experiments by tracking and
+                    reproducing the exact data and model versions used in each experiment.
+                </p>
+                <p class="text-muted mb-2 fw-bold">optuna</p>
+                <p>Optuna is an open-source hyperparameter optimization library for machine learning. It allows you to
+                    automate the process of searching for the best hyperparameter values for a machine learning model,
+                    by running multiple trials and comparing the results.
+
+                    Some key features of Optuna include:
+
+                    Hyperparameter search: Optuna provides algorithms and APIs for searching for the optimal
+                    hyperparameter values for a machine learning model.
+
+                    Parallelization: Optuna supports parallelization of hyperparameter optimization trials, allowing you
+                    to speed up the optimization process.
+
+                    Visualization: Optuna includes a web UI for visualizing and comparing the results of hyperparameter
+                    optimization trials.
+
+                    Compatibility: Optuna is compatible with a variety of machine learning frameworks and libraries,
+                    including TensorFlow, PyTorch, and scikit-learn.
+                </p>
+            </li>
+
+        </ul>
+
+    </section>
+    <!-- Section: Timeline -->
+
+    <div class="container max-height-100" id="resources">
+        <h2 class="text-center">MLOps Resources</h2>
+        <div class="row  ">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">ML Development: Python, scikit-learn, JupyterLab</li>
+                <li class="list-group-item">ML Lifecycle: MLFlow</li>
+                <li class="list-group-item">ML Workflows: Kubeflow</li>
+                <li class="list-group-item">Data Workflows: MetaFlow, Prefect, Dagster, Kedro</li>
+                <li class="list-group-item">Data Version Control: DVC, Pachyderm, Dolt</li>
+                <li class="list-group-item">Hyperparameter Optimization: Optuna, Hyperopt</li>
+                <li class="list-group-item">End-to-End MLOps solutions: Google AI Platform, Amazon Sagemaker, Azure ML,
+                    Databricks</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container justify-content-center align-items-center" id="topbooks">
+        <h2 class="text-center">Top MLOps Books</h2>
+        <div class="row justify-content-center align-items-center" id="img-row">
+            <div class="col-md-2 img-container">
+                <a href="https://www.amazon.in/Machine-Learning-Engineering-Andriy-Burkov/dp/1999579577">
+                    <img src="https://m.media-amazon.com/images/I/51XUfJm64KL.jpg"
+                        alt="Machine Learning Engineering by Andriy Burkov">
+                </a>
+            </div>
+            <div class="col-md-2 img-container">
+                <a href="https://www.amazon.in/Introducing-MLOps-Machine-Learning-Enterprise/dp/1492083291">
+                    <img src="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51D503NWexS._SX198_BO1,204,203,200_QL40_FMwebp_.jpg"
+                        alt="Introducing MLOps: How to Scale Machine Learning in the Enterprise">
+                </a>
+            </div>
+            <div class="col-md-2 img-container">
+                <a href="https://www.oreilly.com/library/view/ml-ops-operationalizing/9781492074663/">
+                    <img src="https://learning.oreilly.com/library/cover/9781492074663/250w/"
+                        alt="ML Ops: Operationalizing Data Science">
+                </a>
+            </div>
+            <div class="col-md-2 img-container">
+                <a href="https://www.amazon.in/Building-Machine-Learning-Powered-Applications/dp/149204511X">
+                    <img src="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51F5NarlBxL._SX379_BO1,204,203,200_.jpg"
+                        alt="Building Machine Learning Powered Applications">
+                </a>
+            </div>
+            <div class="col-md-2 img-container">
+                <a href="https://www.oreilly.com/library/view/what-is-mlops/9781492093626/">
+                    <img src="https://learning.oreilly.com/library/cover/9781492093626/250w/"
+                        alt="What Is MLOps? Generating Long-Term Value from Data Science & Machine Learning">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light py-3 mt-5">
+        <div class="container">
+            <p class="text-center">&copy;<span id="year"></span> mlops.tech</p>
+        </div>
+    </footer>
+
+    <a href="#" id="back-to-top" class="btn btn-primary" role="button">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Include the script.js file -->
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
